@@ -1,0 +1,32 @@
+.for-your-face-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 4rem;
+}
+
+.face-main-image {
+  width: 50%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.face-gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-row img {
+  width: 70%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+}
